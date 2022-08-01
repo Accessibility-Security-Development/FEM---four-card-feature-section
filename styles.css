@@ -192,4 +192,9 @@ body {
   .box--blue {
     grid-area: bluebox;
   }
+
+  .heading__regular,
+  .heading__bold {
+    font-size: 36px;
+  }
 }

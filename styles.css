@@ -174,7 +174,7 @@ body {
       'greenbox redbox bluebox'
       'greenbox orangebox bluebox'
       '. orangebox .';
-    transform: translate(-100%, 10%);
+    transform: translate(-95%, 5%);
   }
 
   .box--green {

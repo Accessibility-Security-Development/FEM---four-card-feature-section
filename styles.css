@@ -174,7 +174,14 @@ body {
       'greenbox redbox bluebox'
       'greenbox orangebox bluebox'
       '. orangebox .';
-    transform: translate(-95%, 5%);
+  }
+
+  .content-wrap {
+    padding-bottom: 2.5rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .box--green {

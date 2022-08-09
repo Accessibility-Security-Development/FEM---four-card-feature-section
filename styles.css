@@ -47,6 +47,8 @@ body {
   height: 2.5rem; /* Footer height */
   font-size: 11px;
   text-align: center;
+  color: black;
+  font-weight: bold;
 }
 
 .attribution a {

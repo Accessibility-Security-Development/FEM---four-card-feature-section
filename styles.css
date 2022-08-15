@@ -40,12 +40,11 @@ body {
 }
 
 .attribution {
-  position: absolute;
-  bottom: -10%;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   height: 2.5rem; /* Footer height */
   font-size: 11px;
-  text-align: center;
   color: black;
   font-weight: bold;
 }

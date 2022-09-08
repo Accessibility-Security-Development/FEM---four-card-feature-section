@@ -21,14 +21,18 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .page-container {
   position: relative;
-  min-height: 100vh;
-  width: 375px;
-  height: auto;
-  max-width: 375px;
+  width: 23.438rem;
+  max-width: 23.438rem;
   margin: 0 auto;
 }
 
@@ -38,10 +42,11 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: -10%;
+  top: calc(100%+ 10px);
   width: 100%;
+
   height: 2.5rem; /* Footer height */
-  font-size: 11px;
+  font-size: 0.688rem;
   color: black;
   font-weight: bold;
   text-align: center;
@@ -98,7 +103,7 @@ body {
 /* || Heading styling */
 
 .heading__regular {
-  padding-top: 5.3125rem;
+  padding-top: 1.5rem;
   padding-left: 2.4375rem;
   padding-right: 2.4375rem;
 }
@@ -124,11 +129,11 @@ body {
   margin-right: 2rem;
   margin-bottom: 1.5625rem;
   margin-bottom: 1.5625rem;
-  width: 311px;
+  width: 19.438rem;
   height: auto;
-  max-width: 311px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
+  max-width: 19.438rem;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.313rem;
 }
 
 .box__heading {
@@ -147,22 +152,39 @@ body {
 }
 
 .box--green {
-  border-top: 5px solid var(--color-cyan);
+  border-top: 0.313rem solid var(--color-cyan);
 }
 
 .box--red {
-  border-top: 5px solid var(--color-red);
+  border-top: 0.313rem solid var(--color-red);
 }
 
 .box--orange {
-  border-top: 5px solid var(--color-orange);
+  border-top: 0.313rem solid var(--color-orange);
 }
 
 .box--blue {
-  border-top: 5px solid var(--color-blue);
+  border-top: 0.313rem solid var(--color-blue);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
+  .heading-container {
+    width: 150%;
+    margin-left: -6rem;
+  }
+
+  .heading__regular {
+    padding-top: 2.5rem;
+  }
+
+  .heading__bold {
+    padding-bottom: 0.8125rem;
+  }
+
+  .heading__text {
+    padding-bottom: 4.75rem;
+  }
+
   .boxes-container {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -172,16 +194,13 @@ body {
       'greenbox redbox bluebox'
       'greenbox orangebox bluebox'
       '. orangebox .';
+
+    position: relative;
+    left: -100%;
   }
 
   .content-wrap {
     padding-bottom: 2.5rem;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
   }
 
   .box--green {
@@ -202,6 +221,6 @@ body {
 
   .heading__regular,
   .heading__bold {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 }

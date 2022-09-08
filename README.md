@@ -1,6 +1,6 @@
 This is a Frontend Mentor challenge.
 
-HTML/CSS were used.
+HTML/CSS grid. BEM used. Desktop version able to zoom up to 400%. Contrast optimised for accessibility. 
 
 HTML validation validation tool used: Nu Html Checker - https://validator.w3.org/nu/
 
